@@ -1,9 +1,9 @@
 import requests
 import pandas as pd
 #jijiji
-
+#PRUEBA DE PULL REQUEST# 
 
 response = requests.get("https://covid-api.com/api/reports").json()
-df1 = pd.DataFrame(response["data"])
-df1.to_csv("data_renato.csv")
-print(df1)
+df2 = pd.DataFrame(response["data"])
+df2.to_csv("data_renato123.csv")
+print(df2)
